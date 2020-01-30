@@ -101,3 +101,9 @@
 .boton:active{
     top:0.1em;
 }
+
+body{
+    margin: 100px auto auto auto ;
+    text-align: center;
+    width:inherit;
+}
