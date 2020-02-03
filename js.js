@@ -70,3 +70,19 @@ function terminar(){
         enJuego = false;
     }
 }
+
+function reinicio(){
+    if(enJuego){
+        enJuego=false;
+        document.getElementById("cuadro11").className = "cuadro1" 
+        document.getElementById("cuadro12").className = "cuadro2" 
+        document.getElementById("cuadro13").className = "cuadro3"
+        document.getElementById("cuadro21").className = "cuadro4" 
+        document.getElementById("cuadro22").className = "cuadro5"
+        document.getElementById("cuadro23").className = "cuadro6"
+        document.getElementById("cuadro31").className = "cuadro7"
+        document.getElementById("cuadro32").className = "cuadro8"
+        document.getElementById("cuadro33").className = "cuadro9"
+        jugar();
+    }
+}
